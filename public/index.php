@@ -4,8 +4,12 @@ declare(strict_types=1);
 
 use App\Environment;
 use Yiisoft\Yii\Runner\Http\HttpApplicationRunner;
+use Symfony\Component\Dotenv\Dotenv;
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+(new Dotenv())->loadEnv(dirname(__DIR__) . '/.env');
+
 Environment::prepare();
 
 if (Environment::appC3()) {

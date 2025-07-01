@@ -79,7 +79,8 @@
         "yiisoft/yii-middleware": "^1.0",
         "yiisoft/yii-runner-console": "^2.0",
         "yiisoft/yii-runner-http": "^3.2",
-        "yiisoft/yii-view-renderer": "^7.1"
+        "yiisoft/yii-view-renderer": "^7.1",
+        "symfony/dotenv": "^6.0"
     },
     "require-dev": {
         "codeception/c3": "^2.7",
@@ -99,7 +100,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src"
+            "App\\": "src/",
+            "App\\Controllers\\": "src/Controllers/",
+            "App\\Models\\": "src/Models/"
         }
     },
     "autoload-dev": {

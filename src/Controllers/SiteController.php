@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Controller;
+namespace App\Controllers;
 
+use App\Models\Message;
 use Psr\Http\Message\ResponseInterface;
 use Yiisoft\Yii\View\Renderer\ViewRenderer;
 
@@ -16,6 +17,9 @@ final class SiteController
 
     public function index(): ResponseInterface
     {
-        return $this->viewRenderer->render('index');
+        $message = new Message();
+        $greeting = $message->getGreeting();
+
+        return $this->viewRenderer->render('index', ['greeting' => $greeting]);
     }
 }

@@ -12,7 +12,8 @@ return [
     '@public' => '@root/public',
     '@resources' => '@root/resources',
     '@runtime' => '@root/runtime',
+    '@src' => '@root/src',
     '@vendor' => '@root/vendor',
-    '@layout' => '@resources/views/layout',
-    '@views' => '@resources/views',
+    '@layout' => '@src/Views/layout',
+    '@views' => '@src/Views',
 ];
