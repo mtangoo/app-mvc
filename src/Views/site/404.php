@@ -22,13 +22,13 @@ $this->setTitle('404');
     <p>
         The page
         <strong><?= Html::encode($currentRoute
-                ->getUri()
-                ->getPath()) ?></strong>
+                    ->getUri()
+                    ->getPath()) ?></strong>
         not found.
     </p>
 
     <p>
-        The above error occurred while the Web server was processing your request.<br/>
+        The above error occurred while the Web server was processing your request.<br />
         Please contact us if you think this is a server error. Thank you.
     </p>
 
