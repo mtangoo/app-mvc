@@ -51,7 +51,7 @@
         "psr/http-server-handler": "^1.0",
         "symfony/console": "^6.0",
         "yiisoft/aliases": "^3.0",
-        "yiisoft/assets": "^4.0",
+        "yiisoft/assets": "^5.1",
         "yiisoft/cache": "^3.0",
         "yiisoft/cache-file": "^3.0",
         "yiisoft/config": "^1.1",
