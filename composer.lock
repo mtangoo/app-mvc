@@ -1885,21 +1885,21 @@
         },
         {
             "name": "yiisoft/cache",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/cache.git",
-                "reference": "891c9f61c670a50af7a6a55194307610e78098c5"
+                "reference": "1f0fe8fac81632aa86b8feea73f2c7f11d7405d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/cache/zipball/891c9f61c670a50af7a6a55194307610e78098c5",
-                "reference": "891c9f61c670a50af7a6a55194307610e78098c5",
+                "url": "https://api.github.com/repos/yiisoft/cache/zipball/1f0fe8fac81632aa86b8feea73f2c7f11d7405d2",
+                "reference": "1f0fe8fac81632aa86b8feea73f2c7f11d7405d2",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "8.1 - 8.4",
+                "php": "8.1 - 8.5",
                 "psr/simple-cache": "^2.0 || ^3.0"
             },
             "provide": {
@@ -1965,7 +1965,7 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2025-06-01T08:49:58+00:00"
+            "time": "2025-12-11T05:44:17+00:00"
         },
         {
             "name": "yiisoft/cache-file",
@@ -13869,8 +13869,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "yiisoft/yii-debug": 20,
         "roave/security-advisories": 20,
+        "yiisoft/yii-debug": 20,
         "yiisoft/yii-debug-api": 20,
         "yiisoft/yii-debug-viewer": 20,
         "yiisoft/yii-gii": 20
@@ -13882,6 +13882,6 @@
         "ext-filter": "*",
         "ext-intl": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
