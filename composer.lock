@@ -2981,29 +2981,36 @@
         },
         {
             "name": "yiisoft/i18n",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/i18n.git",
-                "reference": "c05e9e031fb36fc193152e18fa791bbf6d0582b8"
+                "reference": "028fbcee0ea772dab150d0a8f40344a32e639d3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/i18n/zipball/c05e9e031fb36fc193152e18fa791bbf6d0582b8",
-                "reference": "c05e9e031fb36fc193152e18fa791bbf6d0582b8",
+                "url": "https://api.github.com/repos/yiisoft/i18n/zipball/028fbcee0ea772dab150d0a8f40344a32e639d3f",
+                "reference": "028fbcee0ea772dab150d0a8f40344a32e639d3f",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.0"
+                "php": "8.0 - 8.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.5",
-                "rector/rector": "^0.17.0",
-                "roave/infection-static-analysis-plugin": "^1.16",
-                "spatie/phpunit-watcher": "^1.23",
-                "vimeo/psalm": "^4.30|^5.4"
+                "bamarni/composer-bin-plugin": "^1.8.3",
+                "maglnet/composer-require-checker": "^4.4",
+                "phpunit/phpunit": "^9.6.22",
+                "rector/rector": "^2.0.10",
+                "spatie/phpunit-watcher": "^1.23.6"
             },
             "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": true,
+                    "target-directory": "tools"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Yiisoft\\I18n\\": "src"
@@ -3022,7 +3029,7 @@
             "support": {
                 "chat": "https://t.me/yii3en",
                 "forum": "https://www.yiiframework.com/forum/",
-                "irc": "irc://irc.freenode.net/yii",
+                "irc": "ircs://irc.libera.chat:6697/yii",
                 "issues": "https://github.com/yiisoft/i18n/issues?state=open",
                 "source": "https://github.com/yiisoft/i18n",
                 "wiki": "https://www.yiiframework.com/wiki/"
@@ -3037,7 +3044,7 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2023-06-10T14:18:35+00:00"
+            "time": "2025-11-29T15:57:19+00:00"
         },
         {
             "name": "yiisoft/injector",
@@ -13869,8 +13876,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "yiisoft/yii-debug": 20,
         "roave/security-advisories": 20,
+        "yiisoft/yii-debug": 20,
         "yiisoft/yii-debug-api": 20,
         "yiisoft/yii-debug-viewer": 20,
         "yiisoft/yii-gii": 20
@@ -13882,6 +13889,6 @@
         "ext-filter": "*",
         "ext-intl": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
